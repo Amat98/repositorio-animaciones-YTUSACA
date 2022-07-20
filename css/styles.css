@@ -628,6 +628,8 @@ nav{
         
     }
 
+
+
     .main-nosotros{
         display: grid;
         grid-template-areas: "div-nosotros imgnosotros";
@@ -646,4 +648,85 @@ nav{
         width: 750px;
         padding: 0;
     }
+
+    /*animaciones*/
+
+    .list-uno:hover{
+        background-color: rgba(50, 0, 0, 0.9);
+        transition: 0.6s;
+    }
+
+    .list-dos:hover{
+        background-color: rgba(50, 0, 0, 0.9);
+        transition: 0.6s;
+    }
+
+    .img-dos:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+    .img-uno:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+    .parrafo-brock:hover{
+        background-color: rgba(255, 41, 41, 0.5);
+        transition: .6s;
+        
+    }
+    .parrafo-fase:hover{
+        background-color: rgba(255, 41, 41, 0.5);
+        transition: .6s;
+        
+    }
+
+    .parrafo-terco:hover{
+        background-color: rgba(255, 41, 41, 0.5);
+        transition: .6s;
+        
+    }
+
+    .parrafo-nox:hover{
+        background-color: rgba(255, 41, 41, 0.5);
+        transition: .6s;
+        
+    }
+
+    .brock:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+    .fase:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+    .terco:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+    .nox:hover{
+        padding: 20px;
+        transition: 0.6s;
+    }
+
+
+    .imgnosotros:hover{
+        padding: 20px;
+        transition: 0.6s;
+        
+    
+    }
+
+    .main-nosotros:hover{
+        background-color: rgba(50, 0, 0, 0.9);
+        transition: 0.6s;
+    }
+
+
+
 }
